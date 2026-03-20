@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #e0f7fa, #b2ebf2);
+}
+
+/* HEADER */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 60px;
+}
+
+.logo {
+    font-weight: bold;
+}
+
+nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: purple;
+    font-weight: bold;
+}
+
+/* HERO */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px;
+}
+
+.text {
+    max-width: 500px;
+}
+
+.tag {
+    display: inline-block;
+    padding: 5px 10px;
+    margin-bottom: 15px;
+    color: crimson;
+}
+
+h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* BOTÕES */
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.btn-primary {
+    background: #74ccff;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.btn-secondary {
+    background: transparent;
+    border: 2px solid hsl(197, 100%, 68%);
+    color: #45bbff;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+/* IMAGEM */
+.image img {
+    width: 500px;
+}
